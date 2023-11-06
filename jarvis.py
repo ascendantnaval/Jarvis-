@@ -77,9 +77,13 @@ if __name__ == "__main__":
             speak("Opening Google")
             webbrowser.open("google.com")
 
-        elif 'open spotify' in query:
-            speak("Opening Spotify")
-            webbrowser.open("spotify.com")
+        elif 'open notion' in query:
+            speak("Opening Notion")
+            webbrowser.open("notion.com")
+ 
+        elif 'open gitlab' in query:
+            speak("Opening Gitlab")
+            webbrowser.open("webdevaditya.netlify.app")
 
         elif 'the time' in query:
             strtime= datetime.datetime.now().strftime("%H:%M:%S")
@@ -107,5 +111,4 @@ if __name__ == "__main__":
         elif 'quit' in query:
             exit()
 
-    
     
